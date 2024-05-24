@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgresuser",
+    "password": "12345678",
+    "database": "weatherApp",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "YourPassword1#",
+    "database": "weatherApp",
+    "host": "5432",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
